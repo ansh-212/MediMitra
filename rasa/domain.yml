@@ -1,0 +1,12 @@
+version: "3.1"
+intents:
+  - greet
+  - ask_medical_term
+responses:
+  utter_greet:
+    - text: "Hello! I'm MediMitra, your medical assistant. How can I help you today?"
+  utter_explain_term:
+    - text: "Low hemoglobin may indicate anemia, causing fatigue or weakness. High glucose could suggest diabetes. Want more details?"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

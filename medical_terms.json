@@ -1,0 +1,93 @@
+{
+  "hemoglobin": {
+    "unit": "g/dL",
+    "normal_range": [13, 17],
+    "normal_explanation": {"en": "This means your blood carries oxygen well."},
+    "low_explanation": {"en": "This might indicate anemia."},
+    "high_explanation": {"en": "This might indicate dehydration."}
+  },
+  "total_leukocyte_count": {
+    "unit": "/cumm",
+    "normal_range": [4800, 10800],
+    "normal_explanation": {"en": "This means your immune system is working well."},
+    "low_explanation": {"en": "This might indicate a weakened immune system."},
+    "high_explanation": {"en": "This might indicate an infection or inflammation."}
+  },
+  "neutrophils": {
+    "unit": "%",
+    "normal_range": [40, 80],
+    "normal_explanation": {"en": "This means your body can fight bacterial infections well."},
+    "low_explanation": {"en": "This might make you more prone to infections."},
+    "high_explanation": {"en": "This might indicate an infection or inflammation."}
+  },
+  "lymphocytes": {
+    "unit": "%",
+    "normal_range": [20, 40],
+    "normal_explanation": {"en": "This means your body can fight viral infections well."},
+    "low_explanation": {"en": "This might be due to a recent infection or stress."},
+    "high_explanation": {"en": "This might indicate a viral infection."}
+  },
+  "eosinophils": {
+    "unit": "%",
+    "normal_range": [1, 6],
+    "normal_explanation": {"en": "This means you’re not having allergy issues."},
+    "low_explanation": {"en": "This is usually not a concern."},
+    "high_explanation": {"en": "This might indicate allergies or a parasitic infection."}
+  },
+  "monocytes": {
+    "unit": "%",
+    "normal_range": [2, 10],
+    "normal_explanation": {"en": "This means your body can fight chronic infections well."},
+    "low_explanation": {"en": "This might be due to a temporary immune response or stress."},
+    "high_explanation": {"en": "This might indicate an ongoing infection."}
+  },
+  "basophils": {
+    "unit": "%",
+    "normal_range": [0, 2],
+    "normal_explanation": {"en": "This means you’re not having allergic reactions."},
+    "low_explanation": {"en": "This is usually not a concern."},
+    "high_explanation": {"en": "This might indicate an allergic reaction or inflammation."}
+  },
+  "platelet_count": {
+    "unit": "lakhs/cumm",
+    "normal_range": [1.5, 4.1],
+    "normal_explanation": {"en": "This means your blood can clot properly."},
+    "low_explanation": {"en": "This might increase your risk of bleeding."},
+    "high_explanation": {"en": "This might increase your risk of clotting."}
+  },
+  "total_rbc_count": {
+    "unit": "million/cumm",
+    "normal_range": [4.5, 5.9],
+    "normal_explanation": {"en": "This means you have a healthy number of red blood cells."},
+    "low_explanation": {"en": "This might indicate anemia."},
+    "high_explanation": {"en": "This might indicate dehydration."}
+  },
+  "hematocrit_value": {
+    "unit": "%",
+    "normal_range": [38, 50],
+    "normal_explanation": {"en": "This means your blood has a healthy balance of red blood cells."},
+    "low_explanation": {"en": "This might indicate anemia."},
+    "high_explanation": {"en": "This might indicate dehydration."}
+  },
+  "mean_corpuscular_volume": {
+    "unit": "fL",
+    "normal_range": [80, 100],
+    "normal_explanation": {"en": "This means your red blood cells are a healthy size."},
+    "low_explanation": {"en": "This might indicate iron deficiency anemia."},
+    "high_explanation": {"en": "This might indicate a vitamin B12 deficiency."}
+  },
+  "mean_cell_haemoglobin": {
+    "unit": "pg",
+    "normal_range": [27, 32],
+    "normal_explanation": {"en": "This means your red blood cells have a healthy amount of hemoglobin."},
+    "low_explanation": {"en": "This might indicate anemia."},
+    "high_explanation": {"en": "This might indicate a condition affecting red blood cells."}
+  },
+  "mean_cell_haemoglobin_concentration": {
+    "unit": "%",
+    "normal_range": [31.5, 34.5],
+    "normal_explanation": {"en": "This means your red blood cells have a healthy amount of hemoglobin."},
+    "low_explanation": {"en": "This might indicate anemia."},
+    "high_explanation": {"en": "This might be due to dehydration or a condition affecting red blood cells."}
+  }
+}

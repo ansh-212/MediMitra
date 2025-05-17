@@ -1,0 +1,26 @@
+{
+  "hemoglobin": {
+    "next_steps": {
+      "en": "If abnormal, consult a hematologist. Consider further tests like iron studies.",
+      "es": "Si es anormal, consulta a un hematólogo. Considera pruebas adicionales como estudios de hierro.",
+      "hi": "यदि असामान्य है, तो रक्त विशेषज्ञ से परामर्श करें। आयरन अध्ययन जैसे अतिरिक्त परीक्षणों पर विचार करें।"
+    },
+    "remedies": {
+      "en": "For low hemoglobin, eat iron-rich foods like spinach and red meat. Stay hydrated.",
+      "es": "Para hemoglobina baja, come alimentos ricos en hierro como espinacas y carne roja. Mantente hidratado.",
+      "hi": "कम हीमोग्लोबिन के लिए, पालक और लाल मांस जैसे आयरन युक्त खाद्य पदार्थ खाएं। हाइड्रेटेड रहें।"
+    }
+  },
+  "glucose": {
+    "next_steps": {
+      "en": "If abnormal, consult an endocrinologist. Monitor blood sugar regularly.",
+      "es": "Si es anormal, consulta a un endocrinólogo. Monitorea el azúcar en sangre regularmente。",
+      "hi": "यदि असामान्य है, तो अंतःस्राव विशेषज्ञ से परामर्श करें। रक्त शर्करा की नियमित निगरानी करें।"
+    },
+    "remedies": {
+      "en": "For high glucose, reduce sugar intake and exercise regularly. For low glucose, carry snacks.",
+      "es": "Para glucosa alta, reduce la ingesta de azúcar y haz ejercicio regularmente. Para glucosa baja, lleva refrigerios。",
+      "hi": "उच्च ग्लूकोज के लिए, चीनी का सेवन कम करें और नियमित व्यायाम करें। कम ग्लूकोज के लिए, नाश्ता साथ रखें।"
+    }
+  }
+}

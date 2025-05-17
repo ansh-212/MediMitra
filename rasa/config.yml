@@ -1,0 +1,17 @@
+version: "3.1"
+language: en
+pipeline:
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  epochs: 200
+  constrain_similarities: true
+- name: EntitySynonymMapper
+- name: ResponseSelector
+  epochs: 100
+policies:
+- name: MemoizationPolicy
+- name: RulePolicy
+assistant_id: 20250517-050819-blue-draft

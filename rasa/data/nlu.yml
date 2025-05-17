@@ -1,0 +1,14 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - good morning
+  - intent: ask_medical_term
+    examples: |
+      - What does low hemoglobin mean?
+      - Explain high glucose
+      - Tell me about hemoglobin
+      - What is high blood sugar?

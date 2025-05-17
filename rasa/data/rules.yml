@@ -1,0 +1,6 @@
+version: "3.1"
+rules:
+  - rule: Say hello when greeted
+    steps:
+      - intent: greet
+      - action: utter_greet

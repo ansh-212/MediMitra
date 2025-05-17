@@ -1,0 +1,6 @@
+version: "3.1"
+stories:
+  - story: ask medical term
+    steps:
+      - intent: ask_medical_term
+      - action: utter_explain_term
