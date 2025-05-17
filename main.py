@@ -25,7 +25,7 @@ logger = logging.getLogger("MediMitra")
 
 # Load environment variables
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") or 'AIzaSyBuZ8bB_rMx8ZG1WCfPiuVN-uiXGsnr9RA'
+HF_API_KEY = os.getenv("HF_API_KEY")
 
 app = FastAPI()
 
@@ -232,11 +232,11 @@ def regex_fallback(text):
 
 # Call Gemini API
 async def ask_gemini(prompt):
-    if not GOOGLE_API_KEY:
+    if not HF_API_KEY:
         logger.error("Missing Google API key")
         return "Error: Missing Google API key."
     try:
-        genai.configure(api_key=GOOGLE_API_KEY)
+        genai.configure(api_key=HF_API_KEY)
         client = genai.GenerativeModel("gemini-1.5-flash")
         response = await client.generate_content_async(prompt)
         logger.info("Gemini API call successful")
